@@ -1,0 +1,94 @@
+/*CSS Reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+}
+
+/*CONTENITORE*/
+.container{
+    background-color: rgba(0, 0, 0, 50%);
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/*LOGO E TITOLO*/
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.text-logo{
+    color: lime;
+    text-align: center;
+}
+
+/*BUTTON*/
+.start-input{
+    padding: 6px;
+    text-align: center;
+    background-color: lime;
+}
+
+.start-input button{
+    display: inline;
+    margin: 0 auto;
+}
+
+/*LISTA MONOPATTINI*/
+main{
+    color: white;
+}
+
+/*CHECKBOX*/
+.box{
+    margin: 5px;
+}
+
+/*TESTO*/
+span{
+    font-size: 20px;
+    padding: 2px;
+}
+
+p{
+    font-size: 15px;
+    padding: 6px;
+}
+
+/*STATUS DI CARICA*/
+.mono-gino{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: sandybrown;
+}
+
+.mono-mike{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 500px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+
+.mono-fede{
+    margin-left: 10px;
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: red;
+}
